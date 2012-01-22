@@ -9,7 +9,7 @@ Run.@r.applescript (⌘r)
 
 Hello.^@l.applescript (^⌘l)
     Load a 'Hello World' template
-    The file is assosiated with "Hello.d/hello" + the file extension
+    The file is assosiated with "Hello.d/hello." + the file extension
 
 Open Finder.^@o.applescript (^⌘o)
     Open Finder at the file location
