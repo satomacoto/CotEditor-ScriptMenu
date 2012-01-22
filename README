@@ -1,11 +1,15 @@
-These files are scripts for CotEditor (http://sourceforge.jp/projects/coteditor/).
+These files are scripts for CotEditor http://sourceforge.jp/projects/coteditor/.
 
-Put them in the ScriptMenu folder (~/Library/Application Support/CotEditor/ScriptMenu/).
+Put them in the ScriptMenu folder ~/Library/Application Support/CotEditor/ScriptMenu/.
 
 
 Run.@r.applescript (⌘r)
     Run script associated with the file extension
     The file is assosiated with "Run.d/" + the file extension +".applescript"
+
+Hello.^@l.applescript (^⌘l)
+    Load a 'Hello World' template
+    The file is assosiated with "Hello.d/hello" + the file extension
 
 Open Finder.^@o.applescript (^⌘o)
     Open Finder at the file location
