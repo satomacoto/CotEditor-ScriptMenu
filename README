@@ -1,0 +1,17 @@
+These files are scripts for CotEditor (http://sourceforge.jp/projects/coteditor/).
+
+Put them in the ScriptMenu folder (~/Library/Application Support/CotEditor/ScriptMenu/).
+
+
+Run.@r.applescript (⌘r)
+    Run script associated with the file extension
+    The file is assosiated with "Run.d/" + the file extension +".applescript"
+
+Open Finder.^@o.applescript (^⌘o)
+    Open Finder at the file location
+
+Open Terminal.^@t.applescript (^⌘t)
+    Open Terminal at the file location
+
+Predefined entity reference.py
+    Replace the special characters in the selection (requires chmod 755)
