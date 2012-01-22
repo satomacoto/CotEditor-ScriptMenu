@@ -1,3 +1,4 @@
+(* written by satomacoto. 2011.1.30 *)
 tell application "CotEditor"
 	if exists front document then
 		set p to the path of front document as Unicode text
