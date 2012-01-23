@@ -3,18 +3,18 @@ These files are scripts for CotEditor http://sourceforge.jp/projects/coteditor/.
 Put them in the ScriptMenu folder ~/Library/Application Support/CotEditor/ScriptMenu/.
 
 
-Run.@r.applescript (⌘r)
+Run.@r.applescript (ctrl + command + r)
     Run script associated with the file extension
     The file is assosiated with "Run.d/" + the file extension +".applescript"
 
-Hello.^@l.applescript (^⌘l)
+Hello.^@l.applescript (ctrl + command + r)
     Load a 'Hello World' template based on the edited file extension
     The file is assosiated with "Hello.d/hello." + the file extension
 
-Open Finder.^@o.applescript (^⌘o)
+Open Finder.^@o.applescript (ctrl + command + o)
     Open Finder at the file location
 
-Open Terminal.^@t.applescript (^⌘t)
+Open Terminal.^@t.applescript (ctrl + command + t)
     Open Terminal at the file location
 
 Predefined entity reference.py
