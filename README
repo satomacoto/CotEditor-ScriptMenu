@@ -2,7 +2,7 @@ These files are scripts for CotEditor http://sourceforge.jp/projects/coteditor/.
 
 Put them in the ScriptMenu folder ~/Library/Application Support/CotEditor/ScriptMenu/.
 
-Run.@r.applescript (ctrl + command + r)
+Run.@r.applescript (command + r)
     ファイルの拡張子に関連付けられたスクリプトを実行します．
     スクリプトは"Run.d"ディレクトリに置いておきます．
     Run script associated with the file extension

@@ -10,9 +10,9 @@ tell application "CotEditor"
 		try
 			set {loc, len} to range of selection of front document
 			set newStr to do shell script "cat " & (POSIX path of s)
-		set numOfMove to count of character of newStr
-		set contents of selection of front document to newStr
-		set range of selection of front document to {loc + numOfMove, 0}
+			set numOfMove to count of character of newStr
+			set contents of selection of front document to newStr
+			set range of selection of front document to {loc + numOfMove, 0}
 		end try
 	end if
 end tell
