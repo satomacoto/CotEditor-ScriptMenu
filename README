@@ -4,18 +4,25 @@ Put them in the ScriptMenu folder ~/Library/Application Support/CotEditor/Script
 
 
 Run.@r.applescript (⌘r)
+    ファイルの拡張子に関連付けられたスクリプトを実行します．
+    スクリプトは"Run.d"ディレクトリに置いておきます．
     Run script associated with the file extension
     The file is assosiated with "Run.d/" + the file extension +".applescript"
 
 Hello.^@l.applescript (^⌘l)
-    Load a 'Hello World' template based on the edited file extension
+    ファイルの拡張子に基づいてテンプレートをロードします．
+    テンプレートは"Hello.d"ディレクトリに置いておきます．
+    Load a 'Hello World' template based on the file extension
     The file is assosiated with "Hello.d/hello." + the file extension
 
 Open Finder.^@o.applescript (^⌘o)
+    ファイルの場所でファインダーを開きます．
     Open Finder at the file location
 
 Open Terminal.^@t.applescript (^⌘t)
+    ファイルの場所でターミナルを開きます．
     Open Terminal at the file location
 
 Predefined entity reference.py
+    選択範囲の実体参照を置換します．
     Replace the special characters in the selection (requires chmod 755)
