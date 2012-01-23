@@ -28,6 +28,6 @@ Predefined entity reference.py
 
 Artistic Style.sh
     選択範囲のC, C++, C#, Javaのソースを整形します．
-    Format the C, C++, C#, Java code in the selection (requires chmod 755)
+    Format the C, C++, C# and Java code in the selection (requires chmod 755)
     Rewrite the script if "astyle" is not located in "/usr/local/bin/"
 
